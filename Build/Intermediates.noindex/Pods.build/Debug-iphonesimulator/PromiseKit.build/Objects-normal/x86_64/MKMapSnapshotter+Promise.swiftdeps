@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So16MKMapSnapshotterC", ""]
+- ["So16MKMapSnapshotterC", "start"]
+provides-dynamic-lookup:
+depends-top-level:
+- "MKMapSnapshotter"
+- "Promise"
+depends-member:
+- !private ["s7CVarArgP", "Promise"]
+- !private ["s7CVarArgP", "start"]
+- !private ["10PromiseKit10CatchMixinP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Promise"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "Promise"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["SQ", "Promise"]
+- !private ["SQ", "start"]
+- !private ["SH", "Promise"]
+- !private ["SH", "start"]
+- ["So16MKMapSnapshotterC", "Promise"]
+- ["So16MKMapSnapshotterC", "Snapshot"]
+- ["So16MKMapSnapshotterC", "start"]
+- ["So8NSObjectC", "Promise"]
+- ["So8NSObjectC", "Snapshot"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectP", "Promise"]
+- !private ["So8NSObjectP", "start"]
+- !private ["10PromiseKit0A0C", "init"]
+- !private ["10PromiseKit8ResolverC", "resolve"]
+- !private ["10PromiseKit8ThenableP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Promise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "10PromiseKit10CatchMixinP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- "So16MKMapSnapshotterC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "10PromiseKit0A0C"
+- !private "10PromiseKit8ResolverC"
+- !private "10PromiseKit8ThenableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/CoreLocation/Sources/CLGeocoder+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/CoreLocation/Sources/CLLocationManager+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/MapKit/Sources/MKMapSnapshotter+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/MapKit/Sources/MKDirections+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/CoreLocation/Sources/PMKCoreLocation.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/MapKit/Sources/PMKMapKit.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ab4b6b1a91b5981d7d6a462439aef57c"

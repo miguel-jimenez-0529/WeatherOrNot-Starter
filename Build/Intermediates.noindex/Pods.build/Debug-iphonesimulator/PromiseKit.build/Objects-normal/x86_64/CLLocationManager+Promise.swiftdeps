@@ -1,0 +1,773 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO"
+- "So17CLLocationManagerC10PromiseKitE8PMKErrorO"
+provides-member:
+- ["So17CLLocationManagerC", ""]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", ""]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", ""]
+- ["So17CLLocationManagerC", "RequestAuthorizationType"]
+- ["So17CLLocationManagerC", "PMKError"]
+- ["So17CLLocationManagerC", "requestLocation"]
+- ["So17CLLocationManagerC", "promise"]
+- ["So17CLLocationManagerC", "requestAuthorization"]
+provides-dynamic-lookup:
+- "locationManager"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "AuthorizationCatcher"
+- "Bool"
+- "Bundle"
+- "CLAuthorizationStatus"
+- !private "CLError"
+- "CLLocation"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- "CastingPrecedence"
+- "Error"
+- !private "FloatLiteralType"
+- "Guarantee"
+- !private "IntegerLiteralType"
+- !private "LocationManager"
+- !private "NSError"
+- !private "NSLog"
+- "PMKCLAuthorizationType"
+- "Promise"
+- !private "String"
+- !private "StringLiteralType"
+- !private "Void"
+- !private "kCLErrorDomain"
+depends-member:
+- !private ["Sa", "filter"]
+- !private ["Sa", "isEmpty"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["SK", "filter"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "Bool"]
+- !private ["So8NSBundleC", "NSLog"]
+- ["So8NSBundleC", "PermissionType"]
+- !private ["So8NSBundleC", "String"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "object"]
+- !private ["So8NSBundleC", "permissionType"]
+- ["So21CLAuthorizationStatusV", "authorizedAlways"]
+- ["So21CLAuthorizationStatusV", "authorizedWhenInUse"]
+- ["So21CLAuthorizationStatusV", "denied"]
+- ["So21CLAuthorizationStatusV", "notDetermined"]
+- ["So21CLAuthorizationStatusV", "restricted"]
+- !private ["SC7CLErrorLeV", "locationUnknown"]
+- ["So17CLLocationManagerC", "AuthorizationCatcher"]
+- ["So17CLLocationManagerC", "Bool"]
+- !private ["So17CLLocationManagerC", "Bundle"]
+- ["So17CLLocationManagerC", "CLAuthorizationStatus"]
+- !private ["So17CLLocationManagerC", "CLError"]
+- ["So17CLLocationManagerC", "CLLocation"]
+- ["So17CLLocationManagerC", "CLLocationManager"]
+- ["So17CLLocationManagerC", "Error"]
+- ["So17CLLocationManagerC", "Guarantee"]
+- !private ["So17CLLocationManagerC", "LocationManager"]
+- !private ["So17CLLocationManagerC", "NSError"]
+- ["So17CLLocationManagerC", "PMKCLAuthorizationType"]
+- ["So17CLLocationManagerC", "PMKError"]
+- ["So17CLLocationManagerC", "Promise"]
+- ["So17CLLocationManagerC", "RequestAuthorizationType"]
+- !private ["So17CLLocationManagerC", "Void"]
+- !private ["So17CLLocationManagerC", ""]
+- ["So17CLLocationManagerC", "authorizationStatus"]
+- !private ["So17CLLocationManagerC", "delegate"]
+- ["So17CLLocationManagerC", "fulfill"]
+- ["So17CLLocationManagerC", "init"]
+- ["So17CLLocationManagerC", "initialAuthorizationState"]
+- !private ["So17CLLocationManagerC", "kCLErrorDomain"]
+- ["So17CLLocationManagerC", "locationManager"]
+- ["So17CLLocationManagerC", "locationManagerDidPauseLocationUpdates"]
+- ["So17CLLocationManagerC", "locationManagerDidResumeLocationUpdates"]
+- ["So17CLLocationManagerC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["So17CLLocationManagerC", "promise"]
+- !private ["So17CLLocationManagerC", "requestAlwaysAuthorization"]
+- ["So17CLLocationManagerC", "requestAuthorization"]
+- ["So17CLLocationManagerC", "requestLocation"]
+- !private ["So17CLLocationManagerC", "requestWhenInUseAuthorization"]
+- ["So17CLLocationManagerC", "retainCycle"]
+- ["So17CLLocationManagerC", "satisfyingBlock"]
+- ["So17CLLocationManagerC", "seal"]
+- !private ["So17CLLocationManagerC", "startUpdatingLocation"]
+- !private ["So17CLLocationManagerC", "stopUpdatingLocation"]
+- !private ["So25CLLocationManagerDelegateP", "CLError"]
+- ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- ["So25CLLocationManagerDelegateP", "Guarantee"]
+- ["So25CLLocationManagerDelegateP", "Promise"]
+- !private ["So25CLLocationManagerDelegateP", ""]
+- !private ["So25CLLocationManagerDelegateP", "delegate"]
+- !private ["So25CLLocationManagerDelegateP", "fulfill"]
+- !private ["So25CLLocationManagerDelegateP", "init"]
+- !private ["So25CLLocationManagerDelegateP", "initialAuthorizationState"]
+- !private ["So25CLLocationManagerDelegateP", "kCLErrorDomain"]
+- ["So25CLLocationManagerDelegateP", "locationManager"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidPauseLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidResumeLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So25CLLocationManagerDelegateP", "promise"]
+- !private ["So25CLLocationManagerDelegateP", "requestAlwaysAuthorization"]
+- !private ["So25CLLocationManagerDelegateP", "requestWhenInUseAuthorization"]
+- !private ["So25CLLocationManagerDelegateP", "retainCycle"]
+- !private ["So25CLLocationManagerDelegateP", "satisfyingBlock"]
+- !private ["So25CLLocationManagerDelegateP", "seal"]
+- !private ["So25CLLocationManagerDelegateP", "startUpdatingLocation"]
+- !private ["So25CLLocationManagerDelegateP", "stopUpdatingLocation"]
+- !private ["So15CNKeyDescriptorP", "isEmpty"]
+- !private ["s7CVarArgP", "AuthorizationCatcher"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CLError"]
+- ["s7CVarArgP", "CLLocationManager"]
+- ["s7CVarArgP", "Guarantee"]
+- !private ["s7CVarArgP", "LocationManager"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "PMKError"]
+- ["s7CVarArgP", "Promise"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "domain"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialAuthorizationState"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "kCLErrorDomain"]
+- ["s7CVarArgP", "locationManager"]
+- ["s7CVarArgP", "locationManagerDidPauseLocationUpdates"]
+- ["s7CVarArgP", "locationManagerDidResumeLocationUpdates"]
+- ["s7CVarArgP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "permissionType"]
+- !private ["s7CVarArgP", "promise"]
+- !private ["s7CVarArgP", "requestAlwaysAuthorization"]
+- !private ["s7CVarArgP", "requestLocation"]
+- !private ["s7CVarArgP", "requestWhenInUseAuthorization"]
+- !private ["s7CVarArgP", "retainCycle"]
+- !private ["s7CVarArgP", "satisfyingBlock"]
+- !private ["s7CVarArgP", "seal"]
+- !private ["s7CVarArgP", "startUpdatingLocation"]
+- !private ["s7CVarArgP", "stopUpdatingLocation"]
+- !private ["10PromiseKit10CatchMixinP", "ensure"]
+- !private ["10PromiseKit10CatchMixinP", "init"]
+- ["10PromiseKit10CatchMixinP", "pending"]
+- !private ["10PromiseKit10CatchMixinP", "then"]
+- !private ["So7CLErrorV", "rawValue"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "AuthorizationCatcher"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CLError"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- ["s28CustomDebugStringConvertibleP", "Guarantee"]
+- !private ["s28CustomDebugStringConvertibleP", "LocationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "PMKError"]
+- ["s28CustomDebugStringConvertibleP", "Promise"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "domain"]
+- !private ["s28CustomDebugStringConvertibleP", "ensure"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialAuthorizationState"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLErrorDomain"]
+- ["s28CustomDebugStringConvertibleP", "locationManager"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- ["s28CustomDebugStringConvertibleP", "pending"]
+- !private ["s28CustomDebugStringConvertibleP", "permissionType"]
+- !private ["s28CustomDebugStringConvertibleP", "promise"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAlwaysAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "requestLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "retainCycle"]
+- !private ["s28CustomDebugStringConvertibleP", "satisfyingBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "seal"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "stopUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "then"]
+- !private ["10Foundation13CustomNSErrorP", "locationUnknown"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "AuthorizationCatcher"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CLError"]
+- ["s23CustomStringConvertibleP", "CLLocationManager"]
+- ["s23CustomStringConvertibleP", "Guarantee"]
+- !private ["s23CustomStringConvertibleP", "LocationManager"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "PMKError"]
+- ["s23CustomStringConvertibleP", "Promise"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "domain"]
+- !private ["s23CustomStringConvertibleP", "ensure"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialAuthorizationState"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "kCLErrorDomain"]
+- ["s23CustomStringConvertibleP", "locationManager"]
+- ["s23CustomStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- ["s23CustomStringConvertibleP", "pending"]
+- !private ["s23CustomStringConvertibleP", "permissionType"]
+- !private ["s23CustomStringConvertibleP", "promise"]
+- !private ["s23CustomStringConvertibleP", "requestAlwaysAuthorization"]
+- !private ["s23CustomStringConvertibleP", "requestLocation"]
+- !private ["s23CustomStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s23CustomStringConvertibleP", "retainCycle"]
+- !private ["s23CustomStringConvertibleP", "satisfyingBlock"]
+- !private ["s23CustomStringConvertibleP", "seal"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "stopUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "then"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "filter"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "filter"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SQ", "AuthorizationCatcher"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "CLError"]
+- ["SQ", "CLLocationManager"]
+- ["SQ", "Guarantee"]
+- !private ["SQ", "LocationManager"]
+- !private ["SQ", "NSLog"]
+- !private ["SQ", "PMKError"]
+- ["SQ", "Promise"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- ["SQ", "always"]
+- ["SQ", "authorizationStatus"]
+- ["SQ", "authorizedAlways"]
+- ["SQ", "authorizedWhenInUse"]
+- ["SQ", "automatic"]
+- ["SQ", "both"]
+- !private ["SQ", "code"]
+- !private ["SQ", "delegate"]
+- ["SQ", "denied"]
+- !private ["SQ", "domain"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "fulfill"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialAuthorizationState"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "kCLErrorDomain"]
+- ["SQ", "locationManager"]
+- ["SQ", "locationManagerDidPauseLocationUpdates"]
+- ["SQ", "locationManagerDidResumeLocationUpdates"]
+- ["SQ", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["SQ", "locationUnknown"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notAuthorized"]
+- ["SQ", "notDetermined"]
+- !private ["SQ", "object"]
+- !private ["SQ", "permissionType"]
+- !private ["SQ", "promise"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "requestAlwaysAuthorization"]
+- !private ["SQ", "requestLocation"]
+- !private ["SQ", "requestWhenInUseAuthorization"]
+- ["SQ", "restricted"]
+- !private ["SQ", "retainCycle"]
+- !private ["SQ", "satisfyingBlock"]
+- !private ["SQ", "seal"]
+- !private ["SQ", "startUpdatingLocation"]
+- !private ["SQ", "stopUpdatingLocation"]
+- ["SQ", "whenInUse"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "locationUnknown"]
+- !private ["s5ErrorP", "notAuthorized"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["10PromiseKit9GuaranteeC", "deinit"]
+- !private ["10PromiseKit9GuaranteeC", "done"]
+- ["10PromiseKit9GuaranteeC", "pending"]
+- !private ["10PromiseKit9GuaranteeC", "value"]
+- !private ["SH", "AuthorizationCatcher"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "CLError"]
+- ["SH", "CLLocationManager"]
+- ["SH", "Guarantee"]
+- !private ["SH", "LocationManager"]
+- !private ["SH", "NSLog"]
+- !private ["SH", "PMKError"]
+- ["SH", "Promise"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_userInfo"]
+- ["SH", "always"]
+- ["SH", "authorizationStatus"]
+- ["SH", "authorizedAlways"]
+- ["SH", "authorizedWhenInUse"]
+- ["SH", "automatic"]
+- ["SH", "both"]
+- !private ["SH", "code"]
+- !private ["SH", "delegate"]
+- ["SH", "denied"]
+- !private ["SH", "domain"]
+- !private ["SH", "filter"]
+- !private ["SH", "fulfill"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "initialAuthorizationState"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "kCLErrorDomain"]
+- ["SH", "locationManager"]
+- ["SH", "locationManagerDidPauseLocationUpdates"]
+- ["SH", "locationManagerDidResumeLocationUpdates"]
+- ["SH", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["SH", "locationUnknown"]
+- !private ["SH", "main"]
+- !private ["SH", "notAuthorized"]
+- ["SH", "notDetermined"]
+- !private ["SH", "object"]
+- !private ["SH", "permissionType"]
+- !private ["SH", "promise"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "requestAlwaysAuthorization"]
+- !private ["SH", "requestLocation"]
+- !private ["SH", "requestWhenInUseAuthorization"]
+- ["SH", "restricted"]
+- !private ["SH", "retainCycle"]
+- !private ["SH", "satisfyingBlock"]
+- !private ["SH", "seal"]
+- !private ["SH", "startUpdatingLocation"]
+- !private ["SH", "stopUpdatingLocation"]
+- ["SH", "whenInUse"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "filter"]
+- !private ["SM", "isEmpty"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "domain"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "domain"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "domain"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "AuthorizationCatcher"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "CLAuthorizationStatus"]
+- !private ["So8NSObjectC", "CLError"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Guarantee"]
+- !private ["So8NSObjectC", "LocationManager"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSLog"]
+- ["So8NSObjectC", "PMKCLAuthorizationType"]
+- !private ["So8NSObjectC", "PMKError"]
+- ["So8NSObjectC", "PermissionType"]
+- ["So8NSObjectC", "Promise"]
+- ["So8NSObjectC", "RequestAuthorizationType"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "authorizationStatus"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "domain"]
+- ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initialAuthorizationState"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "kCLErrorDomain"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectC", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectC", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "object"]
+- ["So8NSObjectC", "permissionType"]
+- ["So8NSObjectC", "promise"]
+- !private ["So8NSObjectC", "requestAlwaysAuthorization"]
+- ["So8NSObjectC", "requestAuthorization"]
+- ["So8NSObjectC", "requestLocation"]
+- !private ["So8NSObjectC", "requestWhenInUseAuthorization"]
+- ["So8NSObjectC", "retainCycle"]
+- ["So8NSObjectC", "satisfyingBlock"]
+- ["So8NSObjectC", "seal"]
+- !private ["So8NSObjectC", "startUpdatingLocation"]
+- !private ["So8NSObjectC", "stopUpdatingLocation"]
+- !private ["So8NSObjectP", "AuthorizationCatcher"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "CLError"]
+- ["So8NSObjectP", "CLLocationManager"]
+- ["So8NSObjectP", "Guarantee"]
+- !private ["So8NSObjectP", "LocationManager"]
+- !private ["So8NSObjectP", "NSLog"]
+- !private ["So8NSObjectP", "PMKError"]
+- ["So8NSObjectP", "Promise"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "authorizationStatus"]
+- !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "domain"]
+- !private ["So8NSObjectP", "fulfill"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialAuthorizationState"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "kCLErrorDomain"]
+- ["So8NSObjectP", "locationManager"]
+- ["So8NSObjectP", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectP", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "permissionType"]
+- !private ["So8NSObjectP", "promise"]
+- !private ["So8NSObjectP", "requestAlwaysAuthorization"]
+- !private ["So8NSObjectP", "requestLocation"]
+- !private ["So8NSObjectP", "requestWhenInUseAuthorization"]
+- !private ["So8NSObjectP", "retainCycle"]
+- !private ["So8NSObjectP", "satisfyingBlock"]
+- !private ["So8NSObjectP", "seal"]
+- !private ["So8NSObjectP", "startUpdatingLocation"]
+- !private ["So8NSObjectP", "stopUpdatingLocation"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "domain"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "__derived_enum_equals"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "_code"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "_domain"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "_getEmbeddedNSError"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "_userInfo"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "deinit"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "hash"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "hashValue"]
+- ["So17CLLocationManagerC10PromiseKitE8PMKErrorO", "notAuthorized"]
+- !private ["10PromiseKit0A0C", "deinit"]
+- !private ["10PromiseKit0A0C", "ensure"]
+- !private ["10PromiseKit0A0C", "init"]
+- ["10PromiseKit0A0C", "pending"]
+- !private ["10PromiseKit0A0C", "then"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- ["SY", "authorizedAlways"]
+- ["SY", "authorizedWhenInUse"]
+- ["SY", "denied"]
+- ["SY", "notDetermined"]
+- !private ["SY", "rawValue"]
+- ["SY", "restricted"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "__derived_enum_equals"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "always"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "automatic"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "deinit"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "hash"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "hashValue"]
+- ["So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO", "whenInUse"]
+- !private ["10PromiseKit8ResolverC", "fulfill"]
+- !private ["10PromiseKit8ResolverC", "reject"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["10PromiseKit8ThenableP", "done"]
+- !private ["10PromiseKit8ThenableP", "ensure"]
+- !private ["10PromiseKit8ThenableP", "init"]
+- ["10PromiseKit8ThenableP", "pending"]
+- !private ["10PromiseKit8ThenableP", "then"]
+- !private ["10PromiseKit8ThenableP", "value"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "locationUnknown"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "rawValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AuthorizationCatcher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Guarantee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LocationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PMKError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Promise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "domain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialAuthorizationState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLErrorDomain"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidPauseLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidResumeLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permissionType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "promise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAlwaysAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestWhenInUseAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retainCycle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "satisfyingBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopUpdatingLocation"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "locationUnknown"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- "So8NSBundleC"
+- "So21CLAuthorizationStatusV"
+- !private "SC7CLErrorLeV"
+- "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- !private "So15CNKeyDescriptorP"
+- "s7CVarArgP"
+- "10PromiseKit10CatchMixinP"
+- !private "So7CLErrorV"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "10PromiseKit9GuaranteeC"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So17CLLocationManagerC10PromiseKitE8PMKErrorO"
+- "10PromiseKit0A0C"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "So17CLLocationManagerC10PromiseKitE24RequestAuthorizationTypeO"
+- !private "10PromiseKit8ResolverC"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10PromiseKit8ThenableP"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- !private "s24_DestructorSafeContainerP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/CoreLocation/Sources/CLGeocoder+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/CoreLocation/Sources/CLLocationManager+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/MapKit/Sources/MKMapSnapshotter+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/MapKit/Sources/MKDirections+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/CoreLocation/Sources/PMKCoreLocation.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Pods/PromiseKit/Extensions/MapKit/Sources/PMKMapKit.h"
+- "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "45a3c64147be838249f6ccaf61dd3320"

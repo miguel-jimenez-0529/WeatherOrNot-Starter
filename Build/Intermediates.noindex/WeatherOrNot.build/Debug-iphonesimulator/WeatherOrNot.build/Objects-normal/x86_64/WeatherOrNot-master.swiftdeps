@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "67fa2bac3665ab8911294a615aecdaf4"
+build_time: [1545412921, 558544000]
+inputs:
+  "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/WeatherOrNot/LocationHelper.swift": [1545411548, 0]
+  "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/WeatherOrNot/BrokenPromise.swift": [1544399797, 0]
+  "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/WeatherOrNot/WeatherViewController.swift": [1545412921, 0]
+  "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/WeatherOrNot/WeatherHelper.swift": [1545412921, 0]
+  "/Users/migueljimenez/Downloads/WeatherOrNotApp/WeatherOrNot-Starter/WeatherOrNot/AppDelegate.swift": [1540520656, 0]
